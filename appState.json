@@ -1,27 +1,27 @@
 {
   "EDITOR_STATE": {
     "allProjectFiles": {
-      "69ec33a9-7356-4b5f-a40c-862a25b71fa6": {
-        "id": "69ec33a9-7356-4b5f-a40c-862a25b71fa6",
+      "ceb8ce31-795f-4c58-bc73-14ee704d13eb": {
+        "id": "ceb8ce31-795f-4c58-bc73-14ee704d13eb",
         "parent": null,
-        "name": "g",
+        "name": "MyFirstProject",
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "76b615c2-1825-4609-8083-9afebbe78cb1"
+          "7bb55499-8510-4723-9ea1-d7feac443488"
         ],
         "isRemovable": false,
-        "filePath": "g"
+        "filePath": "MyFirstProject"
       },
-      "76b615c2-1825-4609-8083-9afebbe78cb1": {
-        "id": "76b615c2-1825-4609-8083-9afebbe78cb1",
-        "parent": "69ec33a9-7356-4b5f-a40c-862a25b71fa6",
+      "7bb55499-8510-4723-9ea1-d7feac443488": {
+        "id": "7bb55499-8510-4723-9ea1-d7feac443488",
+        "parent": "ceb8ce31-795f-4c58-bc73-14ee704d13eb",
         "name": "lambda.js",
         "type": "JS_LAMBDA",
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "g/lambda.js",
+        "filePath": "MyFirstProject/lambda.js",
         "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
         "config": {
           "runtime": "nodejs8.10",
@@ -32,9 +32,9 @@
         },
         "triggers": [],
         "testCases": {
-          "9a134bde-a02c-4ad4-9eaf-70b3e6e8668a": {
-            "id": "9a134bde-a02c-4ad4-9eaf-70b3e6e8668a",
-            "functionId": "76b615c2-1825-4609-8083-9afebbe78cb1",
+          "6f697f73-3c8b-4141-b6c1-41654fd89d37": {
+            "id": "6f697f73-3c8b-4141-b6c1-41654fd89d37",
+            "functionId": "7bb55499-8510-4723-9ea1-d7feac443488",
             "name": "My First Test Case",
             "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}"
           }
@@ -42,11 +42,11 @@
       }
     },
     "deletedFiles": [],
-    "rootNode": "69ec33a9-7356-4b5f-a40c-862a25b71fa6",
+    "rootNode": "ceb8ce31-795f-4c58-bc73-14ee704d13eb",
     "openFiles": [
-      "76b615c2-1825-4609-8083-9afebbe78cb1"
+      "7bb55499-8510-4723-9ea1-d7feac443488"
     ],
-    "currentFileId": "76b615c2-1825-4609-8083-9afebbe78cb1",
+    "currentFileId": "7bb55499-8510-4723-9ea1-d7feac443488",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -67,18 +67,18 @@
     }
   },
   "PROJECT_META": {
-    "projectName": "g",
+    "projectName": "MyFirstProject",
     "projectDescription": "My First Project",
     "projectVersion": "1.0.0",
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1565693360447
+    "lastSave": 1565693412720
   },
   "VCS_STATE": {
     "provider": "GitHub",
     "repo": {
-      "name": "g",
+      "name": "MyFirstProject",
       "url": "https://github.com/Kumudikatest/gersser"
     }
   }
